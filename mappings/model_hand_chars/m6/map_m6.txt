@@ -1,0 +1,13 @@
+line_01/char_0001.png	వా
+line_01/char_0002.png	-
+line_01/char_0003.png	హా
+line_01/char_0004.png	-
+line_01/char_0005.png	-
+line_01/char_0006.png	హో
+line_02/char_0007.png	వా
+line_02/char_0008.png	-
+line_02/char_0009.png	హా
+line_02/char_0010.png	-
+line_02/char_0011.png	-
+line_02/char_0012.png	-
+line_02/char_0013.png	-

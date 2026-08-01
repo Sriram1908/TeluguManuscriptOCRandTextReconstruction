@@ -1,0 +1,15 @@
+﻿C:\Users\Sriram\Documents\Synthetic_Data\test_v4.py:9: SyntaxWarning: "\X" is an invalid escape sequence. Such sequences will not work in the future. Did you mean "\\X"? A raw string is also an option.
+  FIX 1 � Conjunct preservation using grapheme clusters (regex \X)
+Background: C:\Users\Sriram\Documents\Synthetic_Data\backgrounds\base_palm_leaf.png
+Lookup: 197 unique aksharas
+Font loaded
+
+[1/2] Ramayanam -- rendering 6 lines
+  [image] C:\Users\Sriram\Documents\Synthetic_Data\corpus\tests\test_ram_v4_fixed.png
+  [label] C:\Users\Sriram\Documents\Synthetic_Data\corpus\tests\test_ram_v4_fixed.txt
+
+[2/2] Gita -- rendering 6 lines
+  [image] C:\Users\Sriram\Documents\Synthetic_Data\corpus\tests\test_gita_v4_fixed.png
+  [label] C:\Users\Sriram\Documents\Synthetic_Data\corpus\tests\test_gita_v4_fixed.txt
+
+Done! Check: corpus/tests/

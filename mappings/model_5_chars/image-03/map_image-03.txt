@@ -1,0 +1,4 @@
+line_01/char_0001.png	-
+line_01/char_0002.png	-
+line_01/char_0003.png	-
+line_01/char_0004.png	-
