@@ -29,14 +29,14 @@ words_per_batch = len(all_words) // len(SCRIPTS)
 global_idx = 0
 word_pointer = 0
 
-print(f"🚀 Starting the Finale Production for {len(all_words)} words...")
+print(f" Starting the Finale Production for {len(all_words)} words...")
 
 for script_name in SCRIPTS:
     script_path = os.path.join(SCRIPTS_DIR, script_name)
     
     # Safety Check: Does the file actually exist?
     if not os.path.exists(script_path):
-        print(f"❌ ERROR: {script_name} not found in the_Finale! Check spelling.")
+        print(f" ERROR: {script_name} not found in the_Finale! Check spelling.")
         continue
 
     # Calculate word slice boundaries
@@ -51,7 +51,7 @@ for script_name in SCRIPTS:
     with open(temp_slice, "w", encoding="utf-8") as f:
         f.write(" ".join(current_slice))
 
-    print(f"🎬 Running {script_name} | Words: {word_pointer} to {end_pointer} | Start ID: {global_idx:05d}")
+    print(f" Running {script_name} | Words: {word_pointer} to {end_pointer} | Start ID: {global_idx:05d}")
 
     # RUN THE SCRIPT
     # Arguments: [Temp Text Path] [Current Global ID] [Output Directory]
@@ -62,4 +62,4 @@ for script_name in SCRIPTS:
     global_idx = len([f for f in os.listdir(FINAL_FOLDER) if f.endswith('.png')])
     word_pointer = end_pointer
 
-print(f"\n✅ SUCCESS,! Your 'Final_data' is ready with all 11 types.")
+print(f"\n SUCCESS,! Your 'Final_data' is ready with all 11 types.")
